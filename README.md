@@ -10,9 +10,11 @@ sudo docker images
 
 sudo docker run -itd -p 85:80 image_name 
 sudo docker ps -a   ------list the container
+
 -----------------get inside the container----------------------------------
 
 sudo dockeer exec -it container_id bash
+
 ----------------------create docker image from container -----------------------------------
 
 sudo docker commit container_id new_name
